@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+}
+.font_8rem{
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width: 100vw;
+    height: 6vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    width: 40vw;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.img_wag{
+    width: 3vw;
+    height: 4vh;
+}
+.navbar_left{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid red;
+}
+.header_right{
+    width: 30vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.navbar_become{
+    width: 19vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.icon_heart{
+    width: 22px;
+}
+.navbar_become_text{
+    color: #00bf8f;
+}
+.navbar_account{
+    width: 30vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
