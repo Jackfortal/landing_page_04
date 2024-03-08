@@ -116,12 +116,23 @@
         <div class="main_a_r_container">
           <h3>Please enter your name as it appears on your ID.</h3>
           <div class="bloco_input_qrcode">
-            <div class="blc_input"></div>
-            <div class="blc_qrcode"></div>
+            <div class="blc_input">
+              <input class="input_text" type="text" placeholder="Legal first name">
+              <input class="input_text" type="text" placeholder="Legal middle name">
+              <input class="input_text" type="text" placeholder="Legal last name">
+              <input class="input_text" type="email" placeholder="Email address">
+              <input class="input_text" type="tel" placeholder="Phone number">
+            </div>
+            <div class="blc_qrcode">
+              <img class="qr_code" src="assets/imagem/qrcode.png" alt="QR Code">
+              <p class="aproved">Aproved<br>Caregiver?<br>Download the<br>app.</p>
+            </div>
           </div>
-          <p>By submitting my phone number, I agree to receive automated and non-automated transactional and marketing calls/texts from Wag!. Consent not required; text STOP to 24006 to opt out. Opt out instructions subject to change. Message and data rates may apply. <a href="#">Mobile Terms</a> apply</p>
-          <input type="checkbox" name="agree" id="agree"><p>I agree to Wag!'s <a href="#">Terms</a> (including a <a href="#">mutual arbitration clause</a>) and <a href="#">Privacy Policy</a>.</p>
-          <input type="checkbox" name="confirm" id="confirm"><p>I confirm that I am a US resident</p>
+          <p class="by_submitting">By submitting my phone number, I agree to receive automated and non-automated transactional and marketing calls/texts from Wag!. Consent not required; text STOP to 24006 to opt out. Opt out instructions subject to change. Message and data rates may apply. <a href="#">Mobile Terms</a> apply</p>
+
+          <div><input type="checkbox" name="agree" id="agree"><label> I agree to Wag!'s <a href="#">Terms</a> (including a <a href="#">mutual arbitration clause</a>) and <a href="#">Privacy Policy</a>.</label></div> <br>
+          
+          <div><input type="checkbox" name="confirm" id="confirm"><label>I confirm that I am a US resident</label></div>
           <input type="button" value="Get Started">
         </div>
       </div>
