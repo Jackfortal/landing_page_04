@@ -121,8 +121,7 @@ li.dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     border: 2px dotted red;
 }
 .main_c {
@@ -134,17 +133,14 @@ li.dropdown {
     display: flex;
     justify-content: space-evenly;
     background-color: #ededed;
-    border: 2px dotted red;
 }
 .main_d {
     width: 100vw;
-    height: 49vh;
+    height: 60vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    border: 2px dotted red;
 }
 .main_e {
     width: 100vw;
@@ -338,4 +334,18 @@ label {
     rotate: 180deg;
     position: relative;
     transform-origin: center top;
+    top: -5vh;
+}
+.h1_why {
+    /*  */
+}
+.container_cards {
+    width: 55vw;
+    height: 42vh;
+    border: 1px dotted red;
+}
+.card_box {
+    width: 10vw;
+    height: 10vh;
+    border: 1px dotted red;
 }
