@@ -108,12 +108,63 @@ li.dropdown {
 
 .main_a {
     width: 100vw;
-    height: 85vh;
+    height: 83vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+}
+.main_b {
+    width: 100vw;
+    height: 49vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px dotted red;
+}
+.main_c {
+    width: 100vw;
+    height: 49vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ededed;
+    border: 2px dotted red;
+}
+.main_d {
+    width: 100vw;
+    height: 49vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px dotted red;
+}
+.main_e {
+    width: 100vw;
+    height: 63vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3a5080;
+}
+footer {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ededed;
 }
 .main_a_l_container {
     width: 35vw;
@@ -135,7 +186,6 @@ li.dropdown {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
 }
-
 .circle1 {
     border-radius: 50%;
     width: 6vw;
@@ -240,18 +290,15 @@ li.dropdown {
     font-size: 0.6rem;
     font-weight: bold;
     color: #727272a2;    
-
 }
 .by_submitting {
     font-size: 0.6rem;
     text-align: justify;
     color: #727272;
 }
-
 .checkbox_cont {
     width: 100%;
     height: 10vh;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -262,7 +309,6 @@ li.dropdown {
     display: flex;
     align-content: center;
     align-items: center;
-    /* border: 1px solid red; */
 }
 label {
     font-size: 0.6rem;
@@ -281,9 +327,15 @@ label {
     color: white;
     background-color: #00bf8f;
 }
-
 .href_blue {
     text-decoration: none;
     font-weight: 600;
     color: #00bf8f;
+}
+.wave_blue_d {
+    width: 100vw;
+    height: auto;
+    rotate: 180deg;
+    position: relative;
+    transform-origin: center top;
 }
