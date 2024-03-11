@@ -31,39 +31,32 @@ main {
 .ul_container_header {
     height: 7vh;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-  
 li {
     float: left;
-}
-  
+} 
 li a, .dropbtn {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-  
+} 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #f5f5f5;
-}
-  
+} 
 li.dropdown {
     display: inline-block;
 }
-
 .font_size_1dote3rem{
     font-size: 0.8rem;
     color: #727272;
     font-weight: 500;
-}
-  
+} 
 .dropdown-content {
     display: none;
     position: absolute;
@@ -71,41 +64,33 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
-  
+} 
 .dropdown-content a {
     color: #727272;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-}
-  
+} 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
-}
-  
+} 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .logo_wag_header {
     width: 3.2vw;
 }
-
 .heart_pet {
     width: 1.3vw;
     max-height: 5vh;
     margin-right: 0.5vw;
 }
-
 .account_circle {
     width: 2vw;
     height: 2vh;
     margin-right: 0.0vw;
 }
-
-
 .main_a {
     width: 100vw;
     height: 83vh;
@@ -296,7 +281,6 @@ label {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    /* align-content: center; */
     align-items: center;
 }
 .img_card {
@@ -345,7 +329,7 @@ strong {
     color: #727272;
 }
 .p_love {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #727272;
     font-weight: 500;
 }
@@ -360,7 +344,6 @@ strong {
     height: 22vh;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     border-radius: 5px;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
