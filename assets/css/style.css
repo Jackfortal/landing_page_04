@@ -430,7 +430,7 @@ strong {
 
 .main_e_bot {
     width: 80vw;
-    height: 9vh;
+    height: 11vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
