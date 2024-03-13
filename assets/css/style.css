@@ -15,7 +15,7 @@ h3 {
 }
 ::placeholder {
     color: #72727250;
-    font-weight: bold;
+    font-weight: 300;
 }
 header{
     width: 100%;
@@ -93,7 +93,7 @@ li.dropdown {
 }
 .main_a {
     width: 100vw;
-    height: 83vh;
+    height: 90vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,11 +102,12 @@ li.dropdown {
 }
 .main_b {
     width: 100vw;
-    height: 49vh;
+    height: 55vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
 }
 .main_c {
     width: 100vw;
@@ -160,8 +161,8 @@ footer {
     align-content: center;
 }
 .main_a_r_container {
-    width: 25vw;
-    height: 65vh;
+    width: 29vw;
+    height: 75vh;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -255,6 +256,7 @@ label {
     font-weight: bolder;
     color: white;
     background-color: #00bf8f;
+
 }
 .href_blue {
     text-decoration: none;
@@ -272,7 +274,7 @@ label {
 }
 .container_cards {
     width: 55vw;
-    height: 37vh;
+    height: 42vh;
     display: flex;
     justify-content: space-between;
 }
@@ -336,13 +338,13 @@ strong {
 }
 .container_cards_d {
     width: 69vw;
-    height: 25vh;
+    height: 26vh;
     display: flex;
     justify-content: space-between;
 }
 .card_vert_box {
     width: 21vw;
-    height: 22vh;
+    height: 23vh;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
@@ -363,8 +365,11 @@ strong {
     margin-top: 2vh;
 }
 .card_vert_box_button {
+    height: 6vh;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
     position: relative;
     top: -12px;
     z-index: 1;
@@ -380,7 +385,7 @@ strong {
     font-size: 0.8rem;
     color: #727272;
     font-weight: 400;
-    align-self: self-end; 
+    margin-top: 12px;
 }
 .main_e_top {
     width: 80vw;
@@ -442,9 +447,10 @@ strong {
 }
 .footer_top {
     width: 56vw;
-    height: 38vh;
+    height: 40vh;
     display: flex;
     justify-content: space-between;
+
 }
 .footer_top_l {
     width: 18vw;
@@ -513,7 +519,7 @@ strong {
     color: #00bf8f;
     font-weight: 500;
     text-decoration: none;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
 }
 .footer_href_block {
     font-size: 0.7rem;
@@ -534,6 +540,7 @@ strong {
     margin: 1px solid red;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .bi {
     margin-left: 10px;
