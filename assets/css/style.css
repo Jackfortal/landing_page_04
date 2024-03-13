@@ -443,13 +443,11 @@ strong {
 .footer_top {
     width: 56vw;
     height: 38vh;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .footer_top_l {
     width: 18vw;
-    border: 1px solid #00bf8f;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -479,11 +477,8 @@ strong {
 }
 .footer_top_r {
     width: 38vw;
-    border: 1px solid #00bf8f;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    text-wrap: nowrap;
 }
 .footer_l_divisoria {
     width: 56vw;
@@ -493,8 +488,35 @@ strong {
 .footer_bot {
     width: 56vw;
     height: 6vh;
-    border: 1px solid red;
 }
 .logo_wag_footer {
     width: 6vw;
+}
+.footer_l_block {
+    width: 14vw;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 5px 1px;
+}
+.footer_l_block_between {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px 1px 50px;
+}
+.footer_href_block_blue {
+    font-size: 0.9rem;
+    color: #00bf8f;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+.footer_href_block {
+    font-size: 0.7rem;
+    color: #727272;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 7px;
 }
