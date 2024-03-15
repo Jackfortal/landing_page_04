@@ -12,6 +12,7 @@ h3 {
     font-size: 0.8rem;
     color: #727272;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 ::placeholder {
     color: #72727250;
@@ -161,8 +162,8 @@ footer {
     align-content: center;
 }
 .main_a_r_container {
-    width: 29vw;
-    height: 75vh;
+    width: 25vw;
+    height: 71vh;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -183,9 +184,9 @@ footer {
 }
 .bloco_input_qrcode {
     width: 100%;
-
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 .blc_input {
     width: 65%;
@@ -222,7 +223,7 @@ footer {
     color: #727272a2;    
 }
 .by_submitting {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     text-align: justify;
     color: #727272;
 }
@@ -471,7 +472,7 @@ strong {
 }
 .icon_play_store {
     width: 8vw;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .download_app {
     width: 7vw;
